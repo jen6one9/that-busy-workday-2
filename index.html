@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+   <script src="lib/moment/moment.min.js"></script>
+   <script>
+     console.log(moment());
+   </script>
+    <header class="jumbotron">
+      <h1 class="display-3">The Workday Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your busy work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <div class="row">
+        <text-area class="hour">8am</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-1">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-1">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">9am</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-2">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-2">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">10am</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-3">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-3">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">11am</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-4">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-4">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">12pm</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-5">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-5">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">1pm</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-6">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-6">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">2pm</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-7">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-7">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">3pm</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-8">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-8">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">4pm</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-9">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-9">save</button>
+      </div>
+      <div class="row">
+        <text-area class="hour">5pm</text-area> 
+        <input placeholder="Describe your task/appointment here" class="toDo-input time-block past" id="input-field-10">
+        <button class="btn btn-primary saveBtn" id="saveBtn-ID-10">save</button>
+      </div>
+      <!-- Timeblocks go here -->
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
