@@ -1,8 +1,3 @@
-function placeholderText() {
-    
-
-}
-
 function displayDate() {
     const currentDate = moment().format('dddd, MMMM DD, YYYY')
     const currentDateEl = $("#currentDay");
