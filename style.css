@@ -39,6 +39,7 @@ text-area{
   background-color: whitesmoke
   color: #000000;
   border: 2px solid black;
+  width: 10%;
 }
 
 .past {
