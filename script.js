@@ -21,13 +21,13 @@ $(document).ready(function () {
     for (let i=8; i <= 17; i++){
         $("#"+i).val(localStorage.getItem(i))
         if (i < currentHour){
-            $("#"+i).addClass("bg-warning")
+            $("#"+i).addClass("bg-secondary")
         }
         else if (i == currentHour){
-            $("#"+i).addClass("bg-success")
+            $("#"+i).addClass("bg-info")
         }
         else {
-            $("#"+i).addClass("bg-info")
+            $("#"+i).addClass("bg-dark")
         }
     }
 })
