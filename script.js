@@ -17,7 +17,7 @@ $(document).ready(function () {
         localStorage.setItem(hourblock, inputField)
 
     })
-    document.getElementById("inputField").placeholder = "Input your schedule details here";
+    document.getElementById("inputField").placeholder = "Input Details";
     //loop through the time blocks and obtain the values from local storage and display on HTML page. 
     for (let i = 8; i <= 17; i++) {
         $("#" + i).val(localStorage.getItem(i))

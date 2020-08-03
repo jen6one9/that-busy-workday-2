@@ -1,6 +1,6 @@
 # that-busy-workday-2
-Let's face it, life is busy and we need to do everything we possibly can to stay on top of our busy work day. 
-This project seeks to create a simple calendar application that allows the user to save events for the given workday. The app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. It is designed to feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+Let's face it, life is hectic and we need to do everything we can to stay on top of our busy workday. 
+This project seeks to create a simple calendar application that allows the user to manage their time at work effectively. The app will run in the browser and features dynamically updated HTML and CSS powered by jQuery. It is designed to feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
 ## Preview
 ![alt-text](workday.gif)
