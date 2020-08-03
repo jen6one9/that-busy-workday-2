@@ -36,9 +36,9 @@ text-area{
 
 
 .hour {
-  background-color: #ffffff;
+  background-color: whitesmoke
   color: #000000;
-  border-top: 1px dashed #000000;
+  border: 2px solid black;
 }
 
 .past {
@@ -57,7 +57,7 @@ text-area{
 }
 
 .saveBtn {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 15px;
   margin-left: 10px;
   padding-left: 10px;
