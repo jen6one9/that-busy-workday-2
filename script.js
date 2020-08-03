@@ -1,3 +1,8 @@
+function placeholderText() {
+    
+
+}
+
 function displayDate() {
     const currentDate = moment().format('dddd, MMMM DD, YYYY')
     const currentDateEl = $("#currentDay");
@@ -17,6 +22,7 @@ $(document).ready(function () {
         localStorage.setItem(hourblock, inputField)
 
     })
+    document.getElementById("inputField").placeholder = "Input your schedule details here";
     //loop through the time blocks and obtain the values from local storage and display on HTML page. 
     for (let i = 8; i <= 17; i++) {
         $("#" + i).val(localStorage.getItem(i))
@@ -31,5 +37,4 @@ $(document).ready(function () {
         }
     }
 })
-
 
