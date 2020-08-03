@@ -25,9 +25,9 @@ text-area{
   border-bottom: 10px solid teal;
 }
 
-.description{
+/* .description{
   white-space: pre-wrap;
-}
+} */
 
 .time-block{
   text-align: center;
@@ -81,5 +81,5 @@ text-area{
 }
 
 input {
- width: 60%;
+ width: 75%;
 }
