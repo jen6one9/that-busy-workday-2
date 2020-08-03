@@ -7,7 +7,7 @@ This project seeks to create a simple day scheduler that allows the user to mana
 ![alt-text](workday.gif)
 
 ## Deployed Site Link
-Here's the link to my app:  
+Here's the link to my app:  https://jen6one9.github.io/that-busy-workday-2/
 
 ## Acknowledgements
 The successful launch of this application was made possible through the support of my tutor and cohort peers.  
