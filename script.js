@@ -32,36 +32,4 @@ $(document).ready(function () {
     }
 })
 
-//Here are the timeblocks for a standard workday
-let timeblocks = ["8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"]
-
-
-
-//Iam trying to capture user input using a for loop
-// let inputId = document.getElementsByClassName("userInput");
-// console.log("userInput")
-
-
-// let length = inputId.length;
-// let i = 0;
-
-
-// for (i = 0; i < length; i++) {
-//     inputId[i].id = "inputField" + (i + 1);
-   
-
-// }
-// ;
-
- 
-
-//save button icon and functionality
-function addToSaveBtn() {
-    let saveBtn = document.getElementsByClassName("saveBtn");
-    let length = saveBtn.length;
-    for (i = 0; i < length; i++) {
-
-        saveBtn[i].id = "saveBtn" + (i + 1);
-    }
-}
 
